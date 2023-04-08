@@ -28,6 +28,7 @@ class LoginPage(BasePage):
         self.do_sendKeys(self.EMAIL,username)
         self.do_sendKeys(self.PWD,password)
         self.do_click(self.LOGIN)
+        print("log in succesfully")
 
 
 
